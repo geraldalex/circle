@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="101.0" prefHeight="299.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;">
+         <children>
+            <TextField fx:id="login_field" layoutX="214.0" layoutY="86.0" prefHeight="25.0" prefWidth="274.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pasword_field" layoutX="214.0" layoutY="137.0" prefHeight="25.0" prefWidth="274.0" promptText="Пароль" style="-fx-border-color: silver; -fx-background-color: #fafafa; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="233.0" layoutY="14.0" prefHeight="51.0" prefWidth="237.0" text="  Авторизация" textAlignment="RIGHT" textFill="#978f8f" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Times New Roman" size="35.0" />
+               </font>
+            </Label>
+            <Button fx:id="idSignOutButton" layoutX="277.0" layoutY="197.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="148.0" style="-fx-background-color: #2E2248;" text="Войти" textFill="#fffff7" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="257.0" layoutY="24.0" prefHeight="51.0" prefWidth="187.0" text="   Circle" textAlignment="RIGHT" textFill="#f2e4e4" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman" size="45.0" />
+         </font>
+      </Label>
+      <Button id="idSignUpButton" fx:id="idSignUpButton" layoutX="519.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="167.0" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="#fffff7" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
