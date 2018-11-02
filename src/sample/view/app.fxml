@@ -6,16 +6,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.CircleController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.CircleController">
     <children>
         <AnchorPane layoutX="1.0" layoutY="101.0" prefHeight="299.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;">
             <children>
-                <Label layoutX="206.0" layoutY="61.0" prefHeight="51.0" prefWidth="289.0" text="Добро пожаловать" textAlignment="RIGHT" textFill="#978f8f" textOverrun="WORD_ELLIPSIS">
+                <Label layoutX="150.0" layoutY="33.0" prefHeight="51.0" prefWidth="389.0" text="Добро пожаловать в круг" textAlignment="RIGHT" textFill="#978f8f" textOverrun="WORD_ELLIPSIS">
                     <font>
                         <Font name="Times New Roman" size="35.0" />
                     </font>
                 </Label>
-            <ImageView fx:id="imageButtonCircle" fitHeight="130.0" fitWidth="146.0" layoutX="283.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imageButtonCircle" fitHeight="130.0" fitWidth="146.0" layoutX="283.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/circle.png" />
                </image>

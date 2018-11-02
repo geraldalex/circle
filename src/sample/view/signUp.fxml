@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
     <children>
-        <AnchorPane fx:id="SignUpChekBoxMan" layoutY="101.0" prefHeight="299.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;">
+        <AnchorPane layoutY="101.0" prefHeight="299.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;">
             <children>
                 <TextField fx:id="SignUpName" layoutX="47.0" layoutY="23.0" prefHeight="25.0" prefWidth="274.0" promptText="Имя" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
                     <font>
@@ -37,7 +37,7 @@
                   <Font size="18.0" />
                </font>
             </TextField>
-            <CheckBox layoutX="248.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="М" />
+            <CheckBox fx:id="SignUpChekBoxMan" layoutX="248.0" layoutY="157.0" mnemonicParsing="false" selected="true" text="М" />
             <CheckBox fx:id="SignUpChekBoxWooman" layoutX="380.0" layoutY="157.0" mnemonicParsing="false" text="Ж" />
             </children>
         </AnchorPane>
