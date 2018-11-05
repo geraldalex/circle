@@ -50,7 +50,11 @@ public class Controller {
                     e.printStackTrace();
                 }
             }else{
-                System.out.println("Login and password is empty");
+                //System.out.println("Login and password is empty");
+                Shake userLoginAnim = new Shake(login_field);
+                Shake userPassAnim = new Shake(pasword_field);
+                userLoginAnim.playAnim();
+                userPassAnim.playAnim();
             }
         });
 
